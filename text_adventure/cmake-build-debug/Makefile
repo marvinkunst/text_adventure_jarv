@@ -127,6 +127,33 @@ text_adventure\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\text_adventure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\text_adventure.dir\build
 .PHONY : text_adventure\fast
 
+Merged\merged.obj: Merged\merged.cpp.obj
+
+.PHONY : Merged\merged.obj
+
+# target to build an object file
+Merged\merged.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\text_adventure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\text_adventure.dir\Merged\merged.cpp.obj
+.PHONY : Merged\merged.cpp.obj
+
+Merged\merged.i: Merged\merged.cpp.i
+
+.PHONY : Merged\merged.i
+
+# target to preprocess a source file
+Merged\merged.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\text_adventure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\text_adventure.dir\Merged\merged.cpp.i
+.PHONY : Merged\merged.cpp.i
+
+Merged\merged.s: Merged\merged.cpp.s
+
+.PHONY : Merged\merged.s
+
+# target to generate assembly for a file
+Merged\merged.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\text_adventure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\text_adventure.dir\Merged\merged.cpp.s
+.PHONY : Merged\merged.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -163,6 +190,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... text_adventure
+	@echo ... Merged/merged.obj
+	@echo ... Merged/merged.i
+	@echo ... Merged/merged.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

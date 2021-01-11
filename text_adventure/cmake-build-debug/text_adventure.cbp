@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/Merged/merged.cpp">
+			<Option target="text_adventure"/>
+		</Unit>
 		<Unit filename="C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/main.cpp">
 			<Option target="text_adventure"/>
 		</Unit>

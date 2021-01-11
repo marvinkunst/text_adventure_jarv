@@ -80,17 +80,38 @@ CMakeFiles\text_adventure.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\text_adventure.dir\main.cpp.s /c C:\Users\Marvin\Cpp_Projekte\text_adventure_v_2\text_adventure\main.cpp
 <<
 
+CMakeFiles\text_adventure.dir\Merged\merged.cpp.obj: CMakeFiles\text_adventure.dir\flags.make
+CMakeFiles\text_adventure.dir\Merged\merged.cpp.obj: ..\Merged\merged.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marvin\Cpp_Projekte\text_adventure_v_2\text_adventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/text_adventure.dir/Merged/merged.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\text_adventure.dir\Merged\merged.cpp.obj /FdCMakeFiles\text_adventure.dir\ /FS -c C:\Users\Marvin\Cpp_Projekte\text_adventure_v_2\text_adventure\Merged\merged.cpp
+<<
+
+CMakeFiles\text_adventure.dir\Merged\merged.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_adventure.dir/Merged/merged.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\text_adventure.dir\Merged\merged.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marvin\Cpp_Projekte\text_adventure_v_2\text_adventure\Merged\merged.cpp
+<<
+
+CMakeFiles\text_adventure.dir\Merged\merged.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_adventure.dir/Merged/merged.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\text_adventure.dir\Merged\merged.cpp.s /c C:\Users\Marvin\Cpp_Projekte\text_adventure_v_2\text_adventure\Merged\merged.cpp
+<<
+
 # Object files for target text_adventure
 text_adventure_OBJECTS = \
-"CMakeFiles\text_adventure.dir\main.cpp.obj"
+"CMakeFiles\text_adventure.dir\main.cpp.obj" \
+"CMakeFiles\text_adventure.dir\Merged\merged.cpp.obj"
 
 # External object files for target text_adventure
 text_adventure_EXTERNAL_OBJECTS =
 
 text_adventure.exe: CMakeFiles\text_adventure.dir\main.cpp.obj
+text_adventure.exe: CMakeFiles\text_adventure.dir\Merged\merged.cpp.obj
 text_adventure.exe: CMakeFiles\text_adventure.dir\build.make
 text_adventure.exe: CMakeFiles\text_adventure.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Marvin\Cpp_Projekte\text_adventure_v_2\text_adventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable text_adventure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Marvin\Cpp_Projekte\text_adventure_v_2\text_adventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable text_adventure.exe"
 	"E:\Programme\CLion\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\text_adventure.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\text_adventure.dir\objects1.rsp @<<
  /out:text_adventure.exe /implib:text_adventure.lib /pdb:C:\Users\Marvin\Cpp_Projekte\text_adventure_v_2\text_adventure\cmake-build-debug\text_adventure.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
