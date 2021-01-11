@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure
+# Install script for directory: E:/Text_adventure/text_adventure_jarv/text_adventure
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Text_adventure/text_adventure_jarv/text_adventure/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

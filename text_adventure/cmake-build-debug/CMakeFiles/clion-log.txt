@@ -1,4 +1,4 @@
-"E:\Programme\CLion\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Marvin\Cpp_Projekte\text_adventure_v_2\text_adventure
+"E:\Clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\Text_adventure\text_adventure_jarv\text_adventure
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/cmake-build-debug
+-- Build files have been written to: E:/Text_adventure/text_adventure_jarv/text_adventure/cmake-build-debug

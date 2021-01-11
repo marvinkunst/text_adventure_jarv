@@ -1,16 +1,16 @@
-The system is: Windows - 10.0.18363 - AMD64
+The system is: Windows - 10.0.19041 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Compiler: E:/Visual/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
 Build flags: 
 Id flags:  
 
 The output was:
 0
-Microsoft (R) C/C++-Optimierungscompiler Version 19.28.29334 für x86
+Microsoft (R) C/C++-Optimierungscompiler Version 19.28.29335 für x86
 Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
 
 CMakeCCompilerId.c
-Microsoft (R) Incremental Linker Version 14.28.29334.0
+Microsoft (R) Incremental Linker Version 14.28.29335.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /out:CMakeCCompilerId.exe 
@@ -21,20 +21,20 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "E:/Text_adventure/text_adventure_jarv/text_adventure/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Compiler: E:/Visual/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
 Build flags: 
 Id flags:  
 
 The output was:
 0
-Microsoft (R) C/C++-Optimierungscompiler Version 19.28.29334 für x86
+Microsoft (R) C/C++-Optimierungscompiler Version 19.28.29335 für x86
 Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
 
 CMakeCXXCompilerId.cpp
-Microsoft (R) Incremental Linker Version 14.28.29334.0
+Microsoft (R) Incremental Linker Version 14.28.29335.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /out:CMakeCXXCompilerId.exe 
@@ -45,53 +45,53 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "E:/Text_adventure/text_adventure_jarv/text_adventure/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Text_adventure/text_adventure_jarv/text_adventure/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_34aab\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_34aab.dir\build.make /nologo -L                  CMakeFiles\cmTC_34aab.dir\build
-Building C object CMakeFiles/cmTC_34aab.dir/testCCompiler.c.obj
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Marvin\AppData\Local\Temp\nm2973.tmp
+Run Build Command(s):nmake /nologo cmTC_e157e\fast && 	E:\Visual\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe  -f CMakeFiles\cmTC_e157e.dir\build.make /nologo -L                  CMakeFiles\cmTC_e157e.dir\build
+Building C object CMakeFiles/cmTC_e157e.dir/testCCompiler.c.obj
+	E:\Visual\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe @C:\Users\JAKOBF~1\AppData\Local\Temp\nm6FF9.tmp
 testCCompiler.c
-Linking C executable cmTC_34aab.exe
-	"E:\Programme\CLion\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_34aab.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_34aab.dir\objects1.rsp @C:\Users\Marvin\AppData\Local\Temp\nm2B0A.tmp
+Linking C executable cmTC_e157e.exe
+	"E:\Clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e157e.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- E:\Visual\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e157e.dir\objects1.rsp @C:\Users\JAKOBF~1\AppData\Local\Temp\nm71FE.tmp
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Text_adventure/text_adventure_jarv/text_adventure/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_5a8f4\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_5a8f4.dir\build.make /nologo -L                  CMakeFiles\cmTC_5a8f4.dir\build
-Building C object CMakeFiles/cmTC_5a8f4.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Marvin\AppData\Local\Temp\nm2E45.tmp
+Run Build Command(s):nmake /nologo cmTC_b9ab4\fast && 	E:\Visual\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe  -f CMakeFiles\cmTC_b9ab4.dir\build.make /nologo -L                  CMakeFiles\cmTC_b9ab4.dir\build
+Building C object CMakeFiles/cmTC_b9ab4.dir/CMakeCCompilerABI.c.obj
+	E:\Visual\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe @C:\Users\JAKOBF~1\AppData\Local\Temp\nm775C.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_5a8f4.exe
-	"E:\Programme\CLion\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_5a8f4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_5a8f4.dir\objects1.rsp @C:\Users\Marvin\AppData\Local\Temp\nm2ED3.tmp
+Linking C executable cmTC_b9ab4.exe
+	"E:\Clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b9ab4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- E:\Visual\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_b9ab4.dir\objects1.rsp @C:\Users\JAKOBF~1\AppData\Local\Temp\nm7837.tmp
 
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Text_adventure/text_adventure_jarv/text_adventure/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_eae91\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_eae91.dir\build.make /nologo -L                  CMakeFiles\cmTC_eae91.dir\build
-Building CXX object CMakeFiles/cmTC_eae91.dir/testCXXCompiler.cxx.obj
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Marvin\AppData\Local\Temp\nm31EF.tmp
+Run Build Command(s):nmake /nologo cmTC_96862\fast && 	E:\Visual\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe  -f CMakeFiles\cmTC_96862.dir\build.make /nologo -L                  CMakeFiles\cmTC_96862.dir\build
+Building CXX object CMakeFiles/cmTC_96862.dir/testCXXCompiler.cxx.obj
+	E:\Visual\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe @C:\Users\JAKOBF~1\AppData\Local\Temp\nm7D18.tmp
 testCXXCompiler.cxx
-Linking CXX executable cmTC_eae91.exe
-	"E:\Programme\CLion\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_eae91.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_eae91.dir\objects1.rsp @C:\Users\Marvin\AppData\Local\Temp\nm328C.tmp
+Linking CXX executable cmTC_96862.exe
+	"E:\Clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_96862.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- E:\Visual\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_96862.dir\objects1.rsp @C:\Users\JAKOBF~1\AppData\Local\Temp\nm7E62.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Marvin/Cpp_Projekte/text_adventure_v_2/text_adventure/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Text_adventure/text_adventure_jarv/text_adventure/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_e54cd\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e54cd.dir\build.make /nologo -L                  CMakeFiles\cmTC_e54cd.dir\build
-Building CXX object CMakeFiles/cmTC_e54cd.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Marvin\AppData\Local\Temp\nm355A.tmp
+Run Build Command(s):nmake /nologo cmTC_7588b\fast && 	E:\Visual\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe  -f CMakeFiles\cmTC_7588b.dir\build.make /nologo -L                  CMakeFiles\cmTC_7588b.dir\build
+Building CXX object CMakeFiles/cmTC_7588b.dir/CMakeCXXCompilerABI.cpp.obj
+	E:\Visual\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe @C:\Users\JAKOBF~1\AppData\Local\Temp\nm8323.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_e54cd.exe
-	"E:\Programme\CLion\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e54cd.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e54cd.dir\objects1.rsp @C:\Users\Marvin\AppData\Local\Temp\nm35D8.tmp
+Linking CXX executable cmTC_7588b.exe
+	"E:\Clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7588b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- E:\Visual\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_7588b.dir\objects1.rsp @C:\Users\JAKOBF~1\AppData\Local\Temp\nm840F.tmp
 
 
 

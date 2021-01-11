@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/text_adventure.dir/Jakob/Battle.cpp.obj"
   "CMakeFiles/text_adventure.dir/Merged/merged.cpp.obj"
   "CMakeFiles/text_adventure.dir/main.cpp.obj"
   "text_adventure.exe"
